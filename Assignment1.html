@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Assignment 1</title>
+        <link rel="stylesheet" href="Assignment1.css">
+    </head>
+    <body>
+        <form method="get" action="http://www.randyconnolly.com/tests/process.php">
+            <fieldset id="fieldset">
+               <legend id="caption">Photo Details</legend>
+               <label for="title">Title</label>
+               <br>
+               <input type="text" name="title" id="title">
+               <br>
+               <br>
+               <label for="description">Description</label>
+               <br>
+               <textarea name="description" id="description"></textarea>
+               <br>
+               <br>
+        <table>
+          <tr>
+            <td>
+               <label for="continent">Continent</label>
+               <br>
+               <select name="continent">
+               <option value="Choose Continent">Choose Continent</option>
+               <option value="Asia">Asia</option>
+               <option value="Europe">Europe</option>
+               <option value="North America">North America</option>
+               <option value="Oceania">Oceania</option>
+               <option value="South America">South America</option>
+               </select>
+               <br>
+               <br>
+               <label for="country">Country</label>
+               <br>
+               <select name="country">
+               <option value="Choose Country">Choose Country</option>
+               <option value="Turkey">Turkey</option>
+               <option value="England">England</option>
+               <option value="USA">USA</option>
+               <option value="Australia">Australia</option>
+               <option value="Brazil">Brazil</option>
+               </select>
+               <br>
+               <br>
+               <label for="city">City</label>
+               <br>
+               <input type="text" name="city" id="city">
+            </td>
+                <td>
+                    <div class="copyright">
+                        <label>Copyright?</label><br/>
+                        <input type="radio" name="copyright" value="All rights reserved">All rights reserved<br/>
+                        <input type="radio" name="copyright" value="Creative commons">Creative commons<br/>
+                    </div>
+                    <br>
+                    <div class="types">
+                        <label>Creative Commons Types</label><br/>
+                        <input type="checkbox" name="cc" value="Attribution">Attribution<br/>
+                        <input type="checkbox" name="cc" value="Non Commercial">Non Commercial<br/>
+                        <input type="checkbox" name="cc" value="Derivative Works">No Derivative Works<br/>
+                        <input type="checkbox" name="cc" value="Share Alike">Share Alike<br/>   
+                    </div>
+                </td>
+            </tr>
+         </table>
+          <br>
+            <div class="lisence">
+              <label>I accept the software lisence</label>
+              <input type="checkbox" name="accept">
+            </div>
+            <br>
+            <table>
+                <tr>
+                    <td>
+                        <label>Rate this photo:</label><br/>
+                        <input type="number" min="1" max="5" name="rate"/>
+                    <br>
+                    <br>
+                        <label>Color Collection:</label><br/>
+                        <input type="color" name="color"/>
+                    </td>
+                    <td>
+                        <div class="date">
+                        <label>Date Taken:</label><br/>
+                        <input type="date" name="date"/><br/>
+                        <br>
+                        <label>Time Taken:</label><br/>
+                        <input type="time" name="time"/><br/>
+                        </div>
+                    </td>
+                </tr>
+            </table>
+            <br>
+            <div class="buttons">
+             <input type="submit" value="Submit" class="button1"/>
+             <input type="reset" value="Clear Form" class="button2"/>           
+            </div>
+        </fieldset>
+        </form>
+    </body>
+</html>

@@ -1,0 +1,75 @@
+#fieldset{
+    margin-top: 20px;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-bottom: 20px;
+}
+
+#caption{
+    margin-left: auto;
+    margin-right: auto;
+    width: 95%;
+    background-color: aliceblue;
+    text-align: center;
+}
+
+#title{
+    width: 99%;  
+}
+
+#description{
+    width: 75%;
+    height:100px;
+}
+
+#city{
+    width:50%
+}
+
+.copyright{
+    border-style:outset;
+    border-color: aqua; 
+}
+
+.types{
+    border-style: outset;
+    border-color: aqua;
+}
+
+.lisence{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    background-color: aliceblue; 
+}
+
+.date{
+    border-style: outset;
+    border-color: aqua;
+}
+
+.buttons{
+    text-align: center;
+}
+
+.button1{
+    font-weight: bold;
+    color: white;
+    background-color: skyblue;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 5px;
+}
+
+.button2{
+    font-weight: bold;
+    color: white;
+    background-color: skyblue;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 5px;
+}
